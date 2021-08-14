@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/be-arabic-converter/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/be-arabic-converter/static/js/main.bdc78825.chunk.js",
+    "main.js.map": "/be-arabic-converter/static/js/main.bdc78825.chunk.js.map",
+    "runtime-main.js": "/be-arabic-converter/static/js/runtime-main.ecde99e6.js",
+    "runtime-main.js.map": "/be-arabic-converter/static/js/runtime-main.ecde99e6.js.map",
+    "static/js/2.0231b53e.chunk.js": "/be-arabic-converter/static/js/2.0231b53e.chunk.js",
+    "static/js/2.0231b53e.chunk.js.map": "/be-arabic-converter/static/js/2.0231b53e.chunk.js.map",
+    "index.html": "/be-arabic-converter/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/be-arabic-converter/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.0231b53e.chunk.js.LICENSE.txt": "/be-arabic-converter/static/js/2.0231b53e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ecde99e6.js",
+    "static/js/2.0231b53e.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.bdc78825.chunk.js"
+  ]
+}
