@@ -37,14 +37,14 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="container col-md-8" style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', padding: 0 }}>
+      <div className="container col-12 col-sm-12 col-md-9 col-lg-7 col-xl-5" style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', padding: 0 }}>
         <div style={{ padding: '12px' }}>
           <h3>Канвертар на беларускую арабіцу</h3>
           <textarea style={{ marginBottom: '12px', marginTop: '16px' }} className="form-control" value={this.state.beValue} onChange={this.handleBeChange} placeholder="Увядзіце тэкст кірыліцай" />
           <textarea style={{ marginBottom: '12px' }} className="form-control" value={this.state.arValue} onChange={this.handleArChange} placeholder="Або ўвядзіце яго арабіцай" />
           <button className="btn btn-primary" onClick={this.copyArContents}>Капіяваць</button>
         </div>
-        <div style={{ padding: '12px' }}>v0.2.1 © <a href="https://github.com/ntundt/">Mikita Tsikhanovich</a>, 2021</div>
+        <div style={{ padding: '12px' }}>v0.2.2 © <a href="https://github.com/ntundt/">Mikita Tsikhanovich</a>, 2021</div>
       </div>
     );
   }
