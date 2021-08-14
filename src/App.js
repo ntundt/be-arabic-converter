@@ -44,7 +44,7 @@ class App extends React.Component {
           <textarea style={{ marginBottom: '12px' }} className="form-control" value={this.state.arValue} onChange={this.handleArChange} placeholder="Або ўвядзіце яго арабіцай" />
           <button className="btn btn-primary" onClick={this.copyArContents}>Капіяваць</button>
         </div>
-        <div style={{ padding: '12px' }}>v0.2.0 © <a href="https://github.com/ntundt/">Mikita Tsikhanovich</a>, 2021</div>
+        <div style={{ padding: '12px' }}>v0.2.1 © <a href="https://github.com/ntundt/">Mikita Tsikhanovich</a>, 2021</div>
       </div>
     );
   }
