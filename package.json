@@ -1,6 +1,6 @@
 {
   "name": "be-arabic-converter",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "private": false,
   "homepage": "https://ntundt.github.io/be-arabic-converter",
   "dependencies": {

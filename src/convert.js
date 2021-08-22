@@ -1,152 +1,219 @@
 const config = [{
-    be: 'дж',
-    ar: 'ج'
-}, {
-    be: 'ࢮ',
-    ar: 'дзь'
-}, {
-    be: 'зь',
-    ar: 'ز'
-}, {
-    be: 'кь',
-    ar: 'ك'
-}, {
-    be: 'сь',
-    ar: 'ث'
-}, {
-    be: 'ть',
-    ar: 'ت'
-}, {
-    be: 'ць',
-    ar: 'س'
-}, {
-    be: 'б',
-    ar: 'ب'
-}, {
-    be: 'в',
-    ar: 'و'
-}, {
-    be: 'г',
-    ar: 'ه'
-}, {
-    be: 'ґ',
-    ar: 'غ'
-}, {
-    be: 'д',
-    ar: 'د'
-}, {
-    be: 'ж',
-    ar: 'ژ'
-}, {
-    be: 'з',
-    ar: 'ض'
-}, {
-    be: 'й',
-    ar: 'ي'
-}, {
-    be: 'к',
-    ar: 'ق'
-}, {
-    be: 'л',
-    ar: 'ل'
-}, {
-    be: 'м',
-    ar: 'م'
-}, {
-    be: 'н',
-    ar: 'ن'
-}, {
-    be: 'п',
-    ar: 'پ'
-}, {
-    be: 'р',
-    ar: 'ر'
-}, {
-    be: 'с',
-    ar: 'ص'
-}, {
-    be: 'т',
-    ar: 'ط'
-}, {
-    be: 'ў',
-    ar: 'و'
-}, {
-    be: 'ф',
-    ar: 'ف'
-}, {
-    be: 'х',
-    ar: 'ح'
-}, {
-    be: 'ц',
-    ar: 'ࢯ'
-}, {
-    be: 'ч',
-    ar: 'چ'
-}, {
-    be: 'ш',
-    ar: 'ش'
-}, {
-    be: '\'',
-    ar: 'ع'
-}, {
-    be: ',',
-    ar: '،'
-}, {
-    be: '.',
-    ar: '.'
-}, {
-    be: '!',
-    ar: '!'
-}, {
-    be: '?',
-    ar: '؟'
-}, {
-    be: ':',
-    ar: ':'
-}, {
-    be: ';',
-    ar: '؛'
-}, {
-    be: ' ',
-    ar: ' '
-}, {
     be: 'а',
-    ar: 'َ'
+    ar: 'َ',
+    arBeginning: 'اَ',
+    vowel: true
 }, {
     be: 'е',
-    ar: 'َ'
+    ar: 'َ',
+    arBeginning: 'اَ',
+    vowel: true
 }, {
     be: 'э',
-    ar: 'َ'
+    ar: 'َ',
+    arBeginning: 'اَ',
+    vowel: true
 }, {
     be: 'і',
-    ar: 'ِ'
+    ar: 'ِ',
+    arBeginning: 'اِ',
+    vowel: true
 }, {
     be: 'ы',
-    ar: 'ِ'
+    ar: 'ِ',
+    arBeginning: 'اِ',
+    vowel: true
 }, {
     be: 'у',
-    ar: 'ُ'
+    ar: 'ُ',
+    arBeginning: 'اُ',
+    vowel: true
 }, {
     be: 'о',
-    ar: 'ُ'
+    ar: 'ُ',
+    arBeginning: 'اُ',
+    vowel: true
 }, {
     be: 'ю',
-    ar: 'يُ'
+    ar: 'يُ',
+    vowel: true
 }, {
     be: 'ё',
-    ar: 'ُِ'
+    ar: 'ُِ',
+    vowel: true
 }, {
     be: 'я',
-    ar: 'َِ'
+    ar: 'َِ',
+    vowel: true
+}, {
+    be: 'дж',
+    ar: 'ج',
+    vowel: false
+}, {
+    be: 'ла',
+    ar: 'لا',
+    vowel: false
+}, {
+    be: 'ля',
+    ar: 'لا',
+    vowel: false
+}, {
+    be: 'ࢮ',
+    ar: 'дзь',
+    vowel: false
+}, {
+    be: 'зь',
+    ar: 'ز',
+    vowel: false
+}, {
+    be: 'кь',
+    ar: 'ك',
+    vowel: false
+}, {
+    be: 'сь',
+    ar: 'ث',
+    vowel: false
+}, {
+    be: 'ть',
+    ar: 'ت',
+    vowel: false
+}, {
+    be: 'ць',
+    ar: 'س',
+    vowel: false
+}, {
+    be: 'б',
+    ar: 'ب',
+    vowel: false
+}, {
+    be: 'в',
+    ar: 'و',
+    vowel: false
+}, {
+    be: 'г',
+    ar: 'ه',
+    vowel: false
+}, {
+    be: 'ґ',
+    ar: 'غ',
+    vowel: false
+}, {
+    be: 'д',
+    ar: 'د',
+    vowel: false
+}, {
+    be: 'ж',
+    ar: 'ژ',
+    vowel: false
+}, {
+    be: 'з',
+    ar: 'ض',
+    vowel: false
+}, {
+    be: 'й',
+    ar: 'ي',
+    vowel: false
+}, {
+    be: 'к',
+    ar: 'ق',
+    vowel: false
+}, {
+    be: 'л',
+    ar: 'ل',
+    vowel: false
+}, {
+    be: 'м',
+    ar: 'م',
+    vowel: false
+}, {
+    be: 'н',
+    ar: 'ن',
+    vowel: false
+}, {
+    be: 'п',
+    ar: 'پ',
+    vowel: false
+}, {
+    be: 'р',
+    ar: 'ر',
+    vowel: false
+}, {
+    be: 'с',
+    ar: 'ص',
+    vowel: false
+}, {
+    be: 'т',
+    ar: 'ط',
+    vowel: false
+}, {
+    be: 'ў',
+    ar: 'و',
+    vowel: false
+}, {
+    be: 'ф',
+    ar: 'ف',
+    vowel: false
+}, {
+    be: 'х',
+    ar: 'ح',
+    vowel: false
+}, {
+    be: 'ц',
+    ar: 'ࢯ',
+    vowel: false
+}, {
+    be: 'ч',
+    ar: 'چ',
+    vowel: false
+}, {
+    be: 'ш',
+    ar: 'ش',
+    vowel: false
+}, {
+    be: '\'',
+    ar: 'ع',
+    vowel: false
+}, {
+    be: ',',
+    ar: '،',
+    vowel: false
+}, {
+    be: '.',
+    ar: '.',
+    vowel: false
+}, {
+    be: '!',
+    ar: '!',
+    vowel: false
+}, {
+    be: '?',
+    ar: '؟',
+    vowel: false
+}, {
+    be: ':',
+    ar: ':',
+    vowel: false
+}, {
+    be: ';',
+    ar: '؛',
+    vowel: false
+}, {
+    be: ' ',
+    ar: ' ',
+    vowel: false
 }, {
     be: 'ь',
-    ar: ''
+    ar: '',
+    vowel: false
 }]
 
 export function beArConvert(input) {
     let result = input.toLowerCase();
     for (let i = 0; i < config.length; i++) {
+        if (typeof config[i].arBeginning !== 'undefined') {
+            let regex = new RegExp('([^а-яА-ЯіІўЎ\\\'ёЁ]|^)' + config[i].be, 'g');
+            result = result.replaceAll(regex, '$1' + config[i].arBeginning);
+        }
         result = result.replaceAll(config[i].be, config[i].ar);
     }
     return result;
@@ -155,6 +222,9 @@ export function beArConvert(input) {
 export function arBeConvert(input) {
     let result = input;
     for (let i = 0; i < config.length; i++) {
+        if (typeof config[i].arBeginning !== 'undefined') {
+            result = result.replaceAll(config[i].arBeginning, config[i].be);
+        }
         if (config[i].ar !== '') {
             result = result.replaceAll(config[i].ar, config[i].be);
         }
